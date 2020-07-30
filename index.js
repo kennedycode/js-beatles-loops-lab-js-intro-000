@@ -6,12 +6,25 @@ function theBeatlesPlay(musicians, instruments) {
   return musiciansAndInstruments
 }
 
-Function johnLennonFacts(facts)  {
-  const jLFacts = []
-  let i=0
-  while (i<facts.length) {
-    jLFacts.push('${facts[i]}!!!')
+function johnLennonFacts(facts) {
+  const shoutedFacts = []
+
+  let i = 0
+  while (i < facts.length) {
+    shoutedFacts.push(`${facts[i]}!!!`)
     i++
   }
-  return jLFacts
+
+  return shoutedFacts
+}
+
+function iLoveTheBeatles(n) {
+  const arr = []
+
+  do {
+    arr.push('I love the Beatles!')
+    n++
+  } while (n < 15)
+
+  return arr
 }
